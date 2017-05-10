@@ -4,7 +4,7 @@
 #
 Name     : gnome-calendar
 Version  : 3.24.2
-Release  : 4
+Release  : 5
 URL      : https://download.gnome.org/sources/gnome-calendar/3.24/gnome-calendar-3.24.2.tar.xz
 Source0  : https://download.gnome.org/sources/gnome-calendar/3.24/gnome-calendar-3.24.2.tar.xz
 Summary  : No detailed summary available
@@ -60,7 +60,14 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C
-export SOURCE_DATE_EPOCH=1494427310
+export SOURCE_DATE_EPOCH=1494429982
+export AR=gcc-ar
+export RANLIB=gcc-ranlib
+export NM=gcc-nm
+export CFLAGS="$CFLAGS -O3 -Os -fdata-sections -ffat-lto-objects -ffunction-sections -flto -fno-semantic-interposition "
+export FCFLAGS="$CFLAGS -O3 -Os -fdata-sections -ffat-lto-objects -ffunction-sections -flto -fno-semantic-interposition "
+export FFLAGS="$CFLAGS -O3 -Os -fdata-sections -ffat-lto-objects -ffunction-sections -flto -fno-semantic-interposition "
+export CXXFLAGS="$CXXFLAGS -O3 -Os -fdata-sections -ffat-lto-objects -ffunction-sections -flto -fno-semantic-interposition "
 %configure --disable-static
 make V=1  %{?_smp_mflags}
 
@@ -72,7 +79,7 @@ export no_proxy=localhost,127.0.0.1,0.0.0.0
 make VERBOSE=1 V=1 %{?_smp_mflags} check
 
 %install
-export SOURCE_DATE_EPOCH=1494427310
+export SOURCE_DATE_EPOCH=1494429982
 rm -rf %{buildroot}
 %make_install
 %find_lang gnome-calendar
