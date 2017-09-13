@@ -1,19 +1,65 @@
-Major changes in 3.24.3:
-* Fix date calculation in week header (Orkun Tezer)
-* Plug many memory leaks (Mohammed Sadiq)
-* Draw current time strip over events in Week view
-* Reliably keep track of time with a new internal clocking API
-* Add a new --debug option, to show debug messages
-* Use libical2 to build Flatpak
-* Improve Month view rendering code (Abdullahi Usman)
+Major changes in 3.26.0:
+* Many fixes to recurrent events (Yash Singh, Georges Basile Stavracas Neto)
+* Cache events for better resource management
+* Improve organization of files in the source code
+* Handle command line options correctly (Mohammed Sadiq)
+* Added the first version of a test suite. This will allow us continue improving
+  and delivering new features with much less regressions.
+* Many code cleanups and reorganizations.
+* Updated translations for many languages.
 
-Major changes in 3.24.2:
-* Fix crash in Week view (Mohammed Sadiq)
-* Fix crash in changing the current date (Mohammed Sadiq)
-* Properly update Week view's header when removing events (Orkun Tezer)
-* Hide search popover when clicking outside it (Kevin Lopez)
+Major changes in 3.25.90:
+* Port to Meson build system (Iñigo Martínez)
+* Improve string in the quick add popover (Carlo Lobrano)
+* Fix Month view's overflow detection (Abdullahi Usman)
+* Add support for adding and modifying recurrences (Yash Singh)
+* Grey out out-of-range cells in Month view
+* Move remaining files to GPLv3 (Alex Benishek)
 * Updated translations for:
     * Belarusian (Yuras Shumovich)
+    * Catalan (Jordi Mas)
+    * Croatian (gogo)
+    * Czech (Marek Cernocky)
+    * Friulian (Fabio Tomat)
+    * Galician (Fran Dieguez)
+    * German (Christian Kirbach)
+    * Hungarian (Balázs Meskó)
+    * Indonesian (Kukuh Syafaat)
+    * Kazakh (Baurzhan Muftakhidinov)
+    * Lithuanian (Aurimas Černius)
+    * Nepali (Pawan Chitrakar)
+    * Norwegian bokmål (Kjartan Maraas)
+    * Slovak (Dušan Kazik)
+    * Slovenian (Matej Urbančič)
+    * Spanish (Daniel Mustieles)
+    * Turkish (Emin Tufan Çetin)
+
+Major changes in 3.25.3:
+* Drop intltool
+* Move events at column after remove event from list (Orkun Tezer)
+* Hide search popover if click is performed outside (Kevin Lopez)
+* Plug memory leaks (Mohammed Sadiq)
+* Fix drag n' drop of multiday events in Week header (Orkun Tezer)
+* Add margins to overflow label in Month view (Abdullahi Usman)
+* Properly format dates (Rafal Luzynski)
+* Fix crash when after closing Calendar (Milan Crha)
+* Add recurrence dialog for modifying and removing recurrent events (Yash Singh)
+* Updated translations for:
+    * Belarusian (Yuras Shumovich)
+    * Catalan (Jordi Mas)
+    * Croatian (gogo)
+    * Friulian (Fabio Tomat)
+    * German (Mario Blättermann)
+    * Hungarian (Balázs Úr, Balázs Meskó)
+    * Kazakh (Baurzhan Muftakhidinov)
+    * Lithuanian (Aurimas Černius)
+    * Indonesian (Kukuh Syafaat)
+    * Norwegian bokmål (Kjartan Maraas)
+    * Spanish (Daniel Mustieles)
+    * Turkish (Emin Tufan Çetin)
+
+Major changes in 3.25.1:
+* Add developer documentation
 
 Major changes in 3.24.1:
 * Added logging capabilities
