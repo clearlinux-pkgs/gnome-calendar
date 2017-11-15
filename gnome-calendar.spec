@@ -4,7 +4,7 @@
 #
 Name     : gnome-calendar
 Version  : 3.26.2
-Release  : 10
+Release  : 11
 URL      : https://download.gnome.org/sources/gnome-calendar/3.26/gnome-calendar-3.26.2.tar.xz
 Source0  : https://download.gnome.org/sources/gnome-calendar/3.26/gnome-calendar-3.26.2.tar.xz
 Summary  : No detailed summary available
@@ -20,6 +20,7 @@ BuildRequires : pkgconfig(gsettings-desktop-schemas)
 BuildRequires : pkgconfig(gtk+-3.0)
 BuildRequires : pkgconfig(libecal-1.2)
 BuildRequires : python3
+Patch1: 0001-utils-simplify-gcal_dup_icaltime.patch
 
 %description
 # GNOME Calendar
@@ -54,13 +55,14 @@ locales components for the gnome-calendar package.
 
 %prep
 %setup -q -n gnome-calendar-3.26.2
+%patch1 -p1
 
 %build
 export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C
-export SOURCE_DATE_EPOCH=1507183739
+export SOURCE_DATE_EPOCH=1510781792
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
 export NM=gcc-nm
@@ -72,7 +74,7 @@ export CXXFLAGS="$CXXFLAGS -O3 -Os -fdata-sections -ffat-lto-objects -ffunction-
 make V=1  %{?_smp_mflags}
 
 %install
-export SOURCE_DATE_EPOCH=1507183739
+export SOURCE_DATE_EPOCH=1510781792
 rm -rf %{buildroot}
 %make_install
 %find_lang gnome-calendar
