@@ -4,7 +4,7 @@
 #
 Name     : gnome-calendar
 Version  : 3.26.3
-Release  : 13
+Release  : 14
 URL      : https://download.gnome.org/sources/gnome-calendar/3.26/gnome-calendar-3.26.3.tar.xz
 Source0  : https://download.gnome.org/sources/gnome-calendar/3.26/gnome-calendar-3.26.3.tar.xz
 Summary  : No detailed summary available
