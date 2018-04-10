@@ -1,5 +1,5 @@
 PKG_NAME := gnome-calendar
-URL = https://download.gnome.org/sources/gnome-calendar/3.26/gnome-calendar-3.26.3.tar.xz
-
+URL = https://download.gnome.org/sources/gnome-calendar/3.28/gnome-calendar-3.28.1.tar.xz
+ARCHIVES = 
 
 include ../common/Makefile.common

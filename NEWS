@@ -1,25 +1,31 @@
-Major changes in 3.26.3:
-* Fix time in tooltip text (Michael Catanzaro)
-* Fix timezones (Michael Catanzaro)
-* Updated translations for many languages.
+Major changes in 3.28.1:
+* Updated translations
 
-Major changes in 3.26.2:
-* Fixed many Flatpak issues (Mathieu Bridon)
-* Updated translations for many languages.
+Major changes in 3.28.0:
+* Updated translations
 
-Major changes in 3.26.1:
-* Fix translations not being picked up.
-* Fix type race issue preventing correct initialization.
+Major changes in 3.27.92:
+* Flatpak improvements
+* New unit tests
+* Updated translations
 
-Major changes in 3.26.0:
-* Many fixes to recurrent events (Yash Singh, Georges Basile Stavracas Neto)
-* Cache events for better resource management
-* Improve organization of files in the source code
-* Handle command line options correctly (Mohammed Sadiq)
-* Added the first version of a test suite. This will allow us continue improving
-  and delivering new features with much less regressions.
-* Many code cleanups and reorganizations.
-* Updated translations for many languages.
+Major changes in 3.27.90:
+* Big code refactorings that lead to more stability and ease of maintainership
+* Follow-up improvements after rewritting the Month view
+* Flatpak Nightly now builds with debug and tracing enabled
+* Huge memory leaks were fixed
+* Updated translations
+
+Major changes in 3.27.2:
+* Events now are rendered differently if they are all-day or timed
+* Rewrite of the Month view
+    * Month cells have more transitions and effects
+    * The day number is above the cells
+    * A new overflow popup window was introduced
+    * Right-to-left languages are fully working now
+* Plug some memory leaks (Florian Brosch)
+* Improve filename handling when adding new calendars (Florian Brosch)
+* Updated translations
 
 Major changes in 3.25.90:
 * Port to Meson build system (Iñigo Martínez)
