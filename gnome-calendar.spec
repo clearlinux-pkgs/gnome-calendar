@@ -4,7 +4,7 @@
 #
 Name     : gnome-calendar
 Version  : 3.28.2
-Release  : 16
+Release  : 17
 URL      : https://download.gnome.org/sources/gnome-calendar/3.28/gnome-calendar-3.28.2.tar.xz
 Source0  : https://download.gnome.org/sources/gnome-calendar/3.28/gnome-calendar-3.28.2.tar.xz
 Summary  : No detailed summary available
