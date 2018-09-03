@@ -1,0 +1,4 @@
+3.30.0
+pkgconfig(gweather-3.0)
+pkgconfig(libdazzle-1.0)
+pkgconfig(libgeoclue-2.0)

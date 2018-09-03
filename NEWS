@@ -1,29 +1,26 @@
-Major changes in 3.28.2:
-* Don't show time labels on full day events (Abdullahi Usman)
-* Fix Week grid collapsing non-overlapping events
-* Force timed events square box to be squared
-* Use the correct end date on tooltips
-* Minor improvements to the Month view paddings
-* Fix a crash when deleting tasks
-* Updates translations
-
-Major changes in 3.28.1:
+Major changes in 3.30.0:
 * Updated translations
 
-Major changes in 3.28.0:
+Major changes in 3.29.92:
+* Better handle 401 status codes when adding calendars (Ralph Plawetzki)
+* Updated translations
+
+Major changes in 3.29.90:
+* Add Night Light integration
+* Bugfixes
 * Updated translations
 
 Major changes in 3.27.92:
 * Flatpak improvements
 * New unit tests
-* Updated translations
+* Updates translations
 
 Major changes in 3.27.90:
 * Big code refactorings that lead to more stability and ease of maintainership
 * Follow-up improvements after rewritting the Month view
 * Flatpak Nightly now builds with debug and tracing enabled
 * Huge memory leaks were fixed
-* Updated translations
+* Updates translations
 
 Major changes in 3.27.2:
 * Events now are rendered differently if they are all-day or timed
@@ -34,7 +31,7 @@ Major changes in 3.27.2:
     * Right-to-left languages are fully working now
 * Plug some memory leaks (Florian Brosch)
 * Improve filename handling when adding new calendars (Florian Brosch)
-* Updated translations
+* Updates translations
 
 Major changes in 3.25.90:
 * Port to Meson build system (Iñigo Martínez)
