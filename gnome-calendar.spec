@@ -4,7 +4,7 @@
 #
 Name     : gnome-calendar
 Version  : 3.30.0
-Release  : 19
+Release  : 20
 URL      : https://download.gnome.org/sources/gnome-calendar/3.30/gnome-calendar-3.30.0.tar.xz
 Source0  : https://download.gnome.org/sources/gnome-calendar/3.30/gnome-calendar-3.30.0.tar.xz
 Summary  : No detailed summary available
@@ -71,7 +71,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C
-export SOURCE_DATE_EPOCH=1536000293
+export SOURCE_DATE_EPOCH=1536129003
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
 export NM=gcc-nm
