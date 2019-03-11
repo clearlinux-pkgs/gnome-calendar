@@ -4,10 +4,10 @@
 #
 Name     : gnome-calendar
 Version  : 3.30.1
-Release  : 23
+Release  : 24
 URL      : https://download.gnome.org/sources/gnome-calendar/3.30/gnome-calendar-3.30.1.tar.xz
 Source0  : https://download.gnome.org/sources/gnome-calendar/3.30/gnome-calendar-3.30.1.tar.xz
-Summary  : No detailed summary available
+Summary  : Simple and beautiful calendar application designed to perfectly fit the GNOME desktop
 Group    : Development/Tools
 License  : GPL-3.0
 Requires: gnome-calendar-bin = %{version}-%{release}
@@ -21,7 +21,11 @@ BuildRequires : libdazzle-dev
 BuildRequires : libgweather-dev
 BuildRequires : pkgconfig(goa-1.0)
 BuildRequires : pkgconfig(gtk+-3.0)
+BuildRequires : pkgconfig(gweather-3.0)
+BuildRequires : pkgconfig(libdazzle-1.0)
 BuildRequires : pkgconfig(libecal-1.2)
+BuildRequires : pkgconfig(libgeoclue-2.0)
+Patch1: build.patch
 
 %description
 # GNOME Calendar
@@ -65,13 +69,14 @@ locales components for the gnome-calendar package.
 
 %prep
 %setup -q -n gnome-calendar-3.30.1
+%patch1 -p1
 
 %build
 export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C
-export SOURCE_DATE_EPOCH=1541258163
+export SOURCE_DATE_EPOCH=1552315519
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
 export NM=gcc-nm

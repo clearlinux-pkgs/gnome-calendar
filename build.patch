@@ -1,0 +1,10 @@
+--- gnome-calendar-3.30.1/src/gcal-utils.h~	2018-11-02 23:24:04.000000000 +0000
++++ gnome-calendar-3.30.1/src/gcal-utils.h	2019-03-11 14:43:28.101079591 +0000
+@@ -36,7 +36,6 @@
+ 
+ /* Add autoptr support for libecal */
+ G_DEFINE_AUTOPTR_CLEANUP_FUNC (ECalComponent, g_object_unref)
+-G_DEFINE_AUTOPTR_CLEANUP_FUNC (ESource, g_object_unref)
+ G_DEFINE_AUTOPTR_CLEANUP_FUNC (GWeatherLocation, gweather_location_unref)
+ 
+ GType                icaltime_get_type                           (void)            G_GNUC_CONST;
