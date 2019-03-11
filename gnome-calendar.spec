@@ -4,7 +4,7 @@
 #
 Name     : gnome-calendar
 Version  : 3.30.1
-Release  : 22
+Release  : 23
 URL      : https://download.gnome.org/sources/gnome-calendar/3.30/gnome-calendar-3.30.1.tar.xz
 Source0  : https://download.gnome.org/sources/gnome-calendar/3.30/gnome-calendar-3.30.1.tar.xz
 Summary  : No detailed summary available
