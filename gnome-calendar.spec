@@ -4,7 +4,7 @@
 #
 Name     : gnome-calendar
 Version  : 3.32.1
-Release  : 27
+Release  : 28
 URL      : https://download.gnome.org/sources/gnome-calendar/3.32/gnome-calendar-3.32.1.tar.xz
 Source0  : https://download.gnome.org/sources/gnome-calendar/3.32/gnome-calendar-3.32.1.tar.xz
 Summary  : Simple and beautiful calendar application designed to perfectly fit the GNOME desktop
@@ -74,7 +74,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C
-export SOURCE_DATE_EPOCH=1556986421
+export SOURCE_DATE_EPOCH=1557001796
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
 export NM=gcc-nm
