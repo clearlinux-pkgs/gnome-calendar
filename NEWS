@@ -1,5 +1,14 @@
-Major changes in 3.32.2:
-* Fix timezone handling of all day events (Florian Latifi)
+Major changes in 3.34.0:
+* Updated translations
+
+Major changes in 3.33.4:
+* Redesigned calendar management dialog
+* New, more reliable web discoverer code
+* Various bugfixes
+* Updated translations
+
+Major changes in 3.33.1:
+(Changes to be documented in the future. This is a nonmaintainer release.)
 
 Major changes in 3.32.1:
 * Fix release date field in AppData
