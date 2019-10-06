@@ -1,8 +1,10 @@
-3.34.0
+3.34.1
 geoclue-dev
 libdazzle-dev
 libgweather-dev
 pkgconfig(gweather-3.0)
 pkgconfig(libdazzle-1.0)
 pkgconfig(libecal-2.0)
+pkgconfig(libedataserverui-1.2)
 pkgconfig(libgeoclue-2.0)
+pkgconfig(libical)
