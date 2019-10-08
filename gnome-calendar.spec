@@ -4,7 +4,7 @@
 #
 Name     : gnome-calendar
 Version  : 3.34.1
-Release  : 32
+Release  : 33
 URL      : https://download.gnome.org/sources/gnome-calendar/3.34/gnome-calendar-3.34.1.tar.xz
 Source0  : https://download.gnome.org/sources/gnome-calendar/3.34/gnome-calendar-3.34.1.tar.xz
 Summary  : Simple and beautiful calendar application designed to perfectly fit the GNOME desktop
