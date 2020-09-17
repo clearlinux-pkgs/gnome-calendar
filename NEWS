@@ -1,13 +1,9 @@
-Major changes in 3.36.2:
-* Week view now properly translates the event to the local timezone (Douglas Fuller)
-* Properly commit sequence after event changes, and prevent data loss
-* Fix first weekday calculation (Evangelos Ribeiro Tzaras)
+Major changes in 3.38.0:
 * Updated translations
 
-Major changes in 3.36.1:
-* Introduce a new engine
-* Fix a lot of bugs
-* Support webcal:// URLs
+Major changes in 3.37.92:
+* Various fixes to the timeline
+* Convert timezones when allocating on Week view
 * Updated translations
 
 Major changes in 3.36.0:
