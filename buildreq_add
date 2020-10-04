@@ -1,2 +1,12 @@
 # This file contains additional build requirements that did not get
 # picked up automatically. One name per line, no whitespace.
+geoclue-dev
+libdazzle-dev
+libgweather-dev
+libhandy-dev
+pkgconfig(gweather-3.0)
+pkgconfig(libdazzle-1.0)
+pkgconfig(libedataserverui-1.2)
+pkgconfig(libgeoclue-2.0)
+pkgconfig(libhandy-0.0)
+pkgconfig(libical)
