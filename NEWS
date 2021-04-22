@@ -1,9 +1,20 @@
-Major changes in 3.38.2:
-* Never reset completed calendars !150 #567
+Major changes in 40.0:
 * Updated translations
 
-Major changes in 3.38.1:
+Major changes in 40.rc:
 * Updated translations
+* Minor cleanups
+
+Major changes in 40.beta:
+* Updated translations
+* Use HdyViewSwitcher in the main window
+* Fix the color of new calendars
+
+Major changes in 40.alpha:
+* Updated translations
+* Depend on libhandy-1
+* Port to the newer libgweather api
+* Improve the event editor
 
 Major changes in 3.38.0:
 * Updated translations
