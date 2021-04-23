@@ -4,7 +4,7 @@
 #
 Name     : gnome-calendar
 Version  : 40.0
-Release  : 42
+Release  : 43
 URL      : https://download.gnome.org/sources/gnome-calendar/40/gnome-calendar-40.0.tar.xz
 Source0  : https://download.gnome.org/sources/gnome-calendar/40/gnome-calendar-40.0.tar.xz
 Summary  : No detailed summary available
@@ -78,7 +78,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1619111364
+export SOURCE_DATE_EPOCH=1619150274
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
