@@ -4,7 +4,7 @@
 #
 Name     : gnome-calendar
 Version  : 40.2
-Release  : 44
+Release  : 45
 URL      : https://download.gnome.org/sources/gnome-calendar/40/gnome-calendar-40.2.tar.xz
 Source0  : https://download.gnome.org/sources/gnome-calendar/40/gnome-calendar-40.2.tar.xz
 Summary  : No detailed summary available
@@ -26,7 +26,6 @@ BuildRequires : pkgconfig(gweather-3.0)
 BuildRequires : pkgconfig(libdazzle-1.0)
 BuildRequires : pkgconfig(libedataserverui-1.2)
 BuildRequires : pkgconfig(libgeoclue-2.0)
-BuildRequires : pkgconfig(libhandy-0.0)
 BuildRequires : pkgconfig(libical)
 
 %description
@@ -78,7 +77,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1622756013
+export SOURCE_DATE_EPOCH=1624502952
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
