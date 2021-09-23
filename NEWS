@@ -1,3 +1,18 @@
+Major changes in 41.0:
+* Updated translations
+
+Major changes in 41.rc1:
+* Small cleanups
+* Updated translations
+
+Major changes in 41.beta:
+* Implement opening ICS files and importing events
+* Updated translations
+
+Major changes in 41.alpha:
+* Introduce the new event preview popover
+* Updated translations
+
 Major changes in 40.2:
 * Enable the met.no weather forecast provider
 * Updated translations
