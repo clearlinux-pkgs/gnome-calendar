@@ -4,7 +4,7 @@
 #
 Name     : gnome-calendar
 Version  : 42.2
-Release  : 51
+Release  : 52
 URL      : https://download.gnome.org/sources/gnome-calendar/42/gnome-calendar-42.2.tar.xz
 Source0  : https://download.gnome.org/sources/gnome-calendar/42/gnome-calendar-42.2.tar.xz
 Summary  : No detailed summary available
@@ -17,8 +17,6 @@ Requires: gnome-calendar-locales = %{version}-%{release}
 BuildRequires : buildreq-gnome
 BuildRequires : buildreq-meson
 BuildRequires : geoclue-dev
-BuildRequires : libdazzle-dev
-BuildRequires : libgweather-dev
 BuildRequires : libhandy-dev
 BuildRequires : pkgconfig(goa-1.0)
 BuildRequires : pkgconfig(gtk+-3.0)
@@ -78,7 +76,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1655480182
+export SOURCE_DATE_EPOCH=1661966291
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
@@ -99,7 +97,7 @@ meson test -C builddir --print-errorlogs || :
 
 %install
 mkdir -p %{buildroot}/usr/share/package-licenses/gnome-calendar
-cp %{_builddir}/gnome-calendar-42.2/COPYING %{buildroot}/usr/share/package-licenses/gnome-calendar/338650eb7a42dd9bc1f1c6961420f2633b24932d
+cp %{_builddir}/gnome-calendar-%{version}/COPYING %{buildroot}/usr/share/package-licenses/gnome-calendar/338650eb7a42dd9bc1f1c6961420f2633b24932d
 DESTDIR=%{buildroot} ninja -C builddir install
 %find_lang gnome-calendar
 

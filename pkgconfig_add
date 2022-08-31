@@ -1,4 +1,10 @@
 # This file contains additional pkgconfig build requirements that did
 # not get picked up automatically. One name per line, no whitespace.
-gtk+-3.0
 goa-1.0
+gtk+-3.0
+gweather4
+libadwaita-1
+libdazzle-1.0
+libedataserverui-1.2
+libgeoclue-2.0
+libical
