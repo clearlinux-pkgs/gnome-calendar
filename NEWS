@@ -1,7 +1,21 @@
-Major changes in 42.2:
-* Fix AppData screenshots URLs
-* Small bugfixes
-* Improve support for right-to-left languages
+Major changes in 43.0:
+* Updated translations
+
+Major changes in 43.rc:
+* Update appdata screenshots (Christopher Davis)
+* Updated translations
+
+Major changes in 43.beta:
+* Collapse sidebar in smaller window sizes
+* Updated translations
+
+Major changes in 43.alpha:
+* Introduce sidebar to the main window
+* Add ability to zoom the Week view
+* Improved style of events
+* Drop the Year view
+* Use new entry rows in event editor
+* Switch to soup3
 * Updated translations
 
 Major changes in 42.1:
