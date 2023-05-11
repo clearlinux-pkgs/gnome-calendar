@@ -5,7 +5,7 @@
 #
 Name     : gnome-calendar
 Version  : 44.1
-Release  : 72
+Release  : 73
 URL      : https://download.gnome.org/sources/gnome-calendar/44/gnome-calendar-44.1.tar.xz
 Source0  : https://download.gnome.org/sources/gnome-calendar/44/gnome-calendar-44.1.tar.xz
 Summary  : No detailed summary available
