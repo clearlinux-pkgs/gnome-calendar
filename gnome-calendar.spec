@@ -7,7 +7,7 @@
 #
 Name     : gnome-calendar
 Version  : 45.1
-Release  : 85
+Release  : 86
 URL      : https://download.gnome.org/sources/gnome-calendar/45/gnome-calendar-45.1.tar.xz
 Source0  : https://download.gnome.org/sources/gnome-calendar/45/gnome-calendar-45.1.tar.xz
 Summary  : No detailed summary available
