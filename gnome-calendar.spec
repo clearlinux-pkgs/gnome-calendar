@@ -7,7 +7,7 @@
 #
 Name     : gnome-calendar
 Version  : 47.0
-Release  : 98
+Release  : 99
 URL      : https://download.gnome.org/sources/gnome-calendar/47/gnome-calendar-47.0.tar.xz
 Source0  : https://download.gnome.org/sources/gnome-calendar/47/gnome-calendar-47.0.tar.xz
 Summary  : No detailed summary available
