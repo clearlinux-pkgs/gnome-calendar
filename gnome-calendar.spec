@@ -7,7 +7,7 @@
 #
 Name     : gnome-calendar
 Version  : 48.1
-Release  : 100
+Release  : 101
 URL      : https://download.gnome.org/sources/gnome-calendar/48/gnome-calendar-48.1.tar.xz
 Source0  : https://download.gnome.org/sources/gnome-calendar/48/gnome-calendar-48.1.tar.xz
 Summary  : No detailed summary available
